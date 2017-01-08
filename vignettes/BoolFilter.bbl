@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{BahaBrag:15}
+Arghavan Bahadorinejad and Ulisses Braga-Neto.
+\newblock Optimal fault detection and diagnosis in transcriptional circuits
+  using next-generation sequencing.
+\newblock {\em IEEE/ACM Transactions on Computational Biology and
+  Bioinformatics}.
+
+\bibitem{Brag:11}
+Ulisses Braga-Neto.
+\newblock Optimal state estimation for boolean dynamical systems.
+\newblock In {\em Signals, Systems and Computers (ASILOMAR), 2011 Conference
+  Record of the Forty Fifth Asilomar Conference on}, pages 1050--1054. IEEE,
+  2011.
+
+\bibitem{braga2013particle}
+Ulisses Braga-Neto.
+\newblock Particle filtering approach to state estimation in boolean dynamical
+  systems.
+\newblock In {\em Global Conference on Signal and Information Processing
+  (GlobalSIP), 2013 IEEE}, pages 81--84. IEEE, 2013.
+
+\bibitem{faure2006dynamical}
+Adrien Faur{\'e}, Aur{\'e}lien Naldi, Claudine Chaouiya, and Denis Thieffry.
+\newblock Dynamical analysis of a generic boolean model for the control of the
+  mammalian cell cycle.
+\newblock {\em Bioinformatics}, 22(14):e124--e131, 2006.
+
+\bibitem{ImanBrag:15a}
+Mahdi Imani and Ulisses Braga-Neto.
+\newblock Optimal gene regulatory network inference using the boolean kalman
+  filter and multiple model adaptive estimation.
+\newblock In {\em 2015 49th Asilomar Conference on Signals, Systems and
+  Computers}, pages 423--427. IEEE, 2015.
+
+\bibitem{ImanBrag:15b}
+Mahdi Imani and Ulisses Braga-Neto.
+\newblock Optimal state estimation for boolean dynamical systems using a
+  boolean kalman smoother.
+\newblock In {\em 2015 IEEE Global Conference on Signal and Information
+  Processing (GlobalSIP)}, pages 972--976. IEEE, 2015.
+
+\bibitem{ImanBrag:16c}
+Mahdi Imani and Ulisses Braga-Neto.
+\newblock Point-based value iteration for partially-observed boolean dynamical
+  systems with finite observation space.
+\newblock In {\em the 55th IEEE Conference on Decision and Control (CDC)}.
+  IEEE, 2016.
+
+\bibitem{ImanBrag:16a}
+Mahdi Imani and Ulisses Braga-Neto.
+\newblock State-feedback control of partially-observed boolean dynamical
+  systems using rna-seq time series data.
+\newblock In {\em 2016 American Control Conference (ACC2016)}. IEEE, 2016.
+
+\bibitem{ImanBrag:16b}
+Mahdi Imani and Ulisses Braga-Neto.
+\newblock Maximum-likelihood adaptive filter for partially-observed boolean
+  dynamical systems.
+\newblock {\em IEEE transaction on Signal Processing}, 65:359--371, 2017.
+
+\bibitem{LeviBrag:17}
+Levi~Daniel McClenny, Mahdi Imani, and Ulisses Braga-Neto.
+\newblock Boolean kalman filter with correlated observation noise.
+\newblock In {\em the 42nd IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP 2017)}. IEEE, 2017.
+
+\bibitem{mussel2015boolnet}
+Christoph M{\"u}ssel, Martin Hopfensitz, and Hans~A Kestler.
+\newblock Boolnet package vignette.
+\newblock 2015.
+
+\end{thebibliography}

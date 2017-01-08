@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\noutput: github_document\n---\n\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n\n```{r, echo = FALSE}\nknitr::opts_chunk$set(\n  collapse = TRUE,\n  comment = \"#>\",\n  fig.path = \"README-\"\n)\n```\n\n#Description\n\nThis package seeks to implement optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.\n\n#Use\nDeploy the package:\n```{r}\nlibrary('BoolFilter')\n```\n\nA few examples of the basic use of the package are shown below:\n\n###Data Generation, Filtering, and visualization\n```{r}\ndata(p53net_DNAdsb0) \n\n#Simulate data from a Bernoulli observation model\ndata <- simulateNetwork(p53net_DNAdsb0, n.data = 100, p = 0.02,\n                        obsModel = list(type = \"Bernoulli\",\n                                          p = 0.02))\n                            \n#Derive an estimate of the network using a BKF approach\nResults <- BKF(data$Y, p53net_DNAdsb0, .02,\n                        obsModel = list(type = \"Bernoulli\",\n                                          p = 0.02))\n                        \n#View network approximation vs. correct trajectory\nplotTrajectory(Results$Xhat,\n                labels = p53net_DNAdsb0$genes,\n                dataset2 = data$X,\n                compare = TRUE)\n```\n\n###Model Selection\nBoolFilter comes with capibilites for Multiple-Model Adaptive Estimation (citation in vignette), in which model selection and parameter estimation is made possible by implementing a bank Boolean Kalman Filters running in parallel.\n\n\n```{r}\ndata(p53net_DNAdsb1)\n\nnet1 <- p53net_DNAdsb0\nnet2 <- p53net_DNAdsb1\n\n#define observation model\nobservation = list(type = 'NB', s = 10.875, mu = 0.01, delta = c(2, 2, 2, 2), phi = c(3, 3, 3, 3))\n\n#simulate data using one of the networks and a given 'p'\ndata <- simulateNetwork(net1, n.data = 100, p = 0.02, obsModel = observation)\n       \n#run MMAE to determine model selection and parameter estimation\nMMAE(data, net=c(\"net1\",\"net2\"), p=c(0.02,0.1,0.15), threshold=0.8, obsModel = observation)\n```\n\n#More Information\nMore information can be found in the packages vignette, including more detailed examples and explainations of the individual algorithms included in the package.\n\n\n#References\nAll references for the above can be found in the vignette references section.\n\n",
+    "created" : 1483910242039.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "22683615",
+    "id" : "9C04C05B",
+    "lastKnownWriteTime" : 1483911874,
+    "last_content_update" : 1483911874796,
+    "path" : "C:/Users/Levi/Dropbox/BoolFilter/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

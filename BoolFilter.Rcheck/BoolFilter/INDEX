@@ -1,0 +1,14 @@
+BKF                     Boolean Kalman Filter
+BKS                     Boolean Kalman Smoother
+BoolFilter-package      Optimal Estimation of Partially-Observed
+                        Boolean Dynamical Systems
+MMAE                    Multiple Model Adaptive Estimation
+SIR_BKF                 Particle Filter
+melanoma                Melanoma Regulatory Network
+p53net_DNAdsb0          p53 Negative-Feedback Gene Regulatory Boolean
+                        Network
+p53net_DNAdsb1          p53 Negative-Feedback Gene Regulatory Boolean
+                        Network
+plotTrajectory          Plot state variables of Boolean Regulatory
+                        Systems
+simulateNetwork         Simulate Boolean Network

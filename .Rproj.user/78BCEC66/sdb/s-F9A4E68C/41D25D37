@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"cran-comments\"\nauthor: \"Levi McClenny\"\ndate: \"January 8, 2017\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## Test environments\n* local OS X install, R 3.3.2, platform: x86_64-apple-darwin13.4.0 (64-bit)\n* local windows install, R 3.3.2, platform: x86_64-w64-mingw32 (64-bit)\n* win-builder (devel and release)\n\n## R CMD check results\nThere were no ERRORs, WARNINGs, or NOTEs. \n\n## Downstream dependencies\nThere are currently no downstream dependencies.",
+    "created" : 1483909164811.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1535511644",
+    "id" : "41D25D37",
+    "lastKnownWriteTime" : 1483913202,
+    "last_content_update" : 1483913202,
+    "path" : "~/Dropbox/BoolFilter/cran-comments.Rmd",
+    "project_path" : "cran-comments.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

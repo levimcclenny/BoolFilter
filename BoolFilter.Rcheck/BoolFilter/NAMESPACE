@@ -1,0 +1,14 @@
+import(Rlab, BoolNet)
+
+#exportPattern("^[[:alpha:]]+")
+
+importFrom("graphics", "abline", "axis", "box", "lines", "par", "plot")
+importFrom("stats", "rmultinom", "rnbinom", "rnorm", "rpois")
+
+export(
+  BKF,
+  BKS,
+  SIR_BKF,
+  plotTrajectory,
+  simulateNetwork,
+  MMAE)

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{BoolFilter-package}\n\\alias{BoolFilter-package}\n\\alias{BoolFilter}\n\\docType{package}\n\\title{\nOptimal Estimation of Partially-Observed Boolean Dynamical Systems\n}\n\\description{\nImplementation of optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.\n}\n\\details{\n\\tabular{ll}{\nPackage: \\tab BoolFilter\\cr\nType: \\tab Package\\cr\nVersion: \\tab 1.0\\cr\nDate: \\tab 2017-01-08\\cr\nLicense: \\tab Artistic-2.0\\cr\n}\nEstimation of Partially-Observed Boolean Dynamical Systems (POBDS) is handled by various algorithms, revolving primarily around the Boolean Kalman Filter (\\cite{\\link{BKF}}). Other similar algorithms have been developed and documented in the BoolFilter package, including \\cite{\\link{BKS}} for batch datasets and the \\cite{\\link{SIR_BKF}} for large POBDS. \n\nThese algorithms can be run on data with various types of noise including:\n\n\\itemize{\n\\item{Bernoulli}\n\\item{Gaussian}\n\\item{Poisson}\n\\item{Negative-Binomial}\n}\n\nThese types of noise models are included to handle different potential observation noise that could be encountered in real applications. \n\nThese observation noise models can be simulated in the \\cite{\\link{simulateNetwork}} function, which can generate both state and observation trajectories of user defined length and observation model preference. \n\nAdditionally, the \\cite{\\link{plotTrajectory}} function can be implemented to visualize the trajectories of state variables.\n\n}\n\\author{\nLevi McClenny, Mahdi Imani, Ulisses Braga-Neto\n\nMaintainer: Levi McClenny <levimcclenny@tamu.edu>\n}\n\\references{\nBraga-Neto U. Optimal state estimation for Boolean dynamical systems. In 2011 Conference Record of the Forty Fifth Asilomar Conference on Signals, Systems and Computers (ASILOMAR) 2011 Nov 6 (pp. 1050-1054). IEEE.\n\\cr\n\\cr\nImani, M., & Braga-Neto, U. Maximum-likelihood adaptive filter for partially-observed boolean dynamical systems. IEEE transaction on Signal Processing, 65:359-371, 2017.\n\nFurther references are listed in the corresponding reference sections\n}\n\n\n\\examples{\n\ndata(p53net_DNAdsb0)\n \n#Simulate data from a Bernoulli observation model\ndata <- simulateNetwork(p53net_DNAdsb0, n.data = 100, p = 0.02,\n                        obsModel = list(type = \"Bernoulli\",\n                                          p = 0.02))\n                            \n#Derive an estimate of the network using a BKF approach\nResults <- BKF(data$Y, p53net_DNAdsb0, .02,\n                        obsModel = list(type = \"Bernoulli\",\n                                          p = 0.02))\n                        \n#View network approximation vs. correct trajectory\nplotTrajectory(Results$Xhat,\n                labels = p53net_DNAdsb0$genes,\n                dataset2 = data$X,\n                compare = TRUE)\n\n}\n",
+    "created" : 1483906059718.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "777398256",
+    "id" : "B12F5D6",
+    "lastKnownWriteTime" : 1483906096,
+    "last_content_update" : 1483906096987,
+    "path" : "C:/Users/Levi/Dropbox/BoolFilter/man/BoolFilter-package.Rd",
+    "project_path" : "man/BoolFilter-package.Rd",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

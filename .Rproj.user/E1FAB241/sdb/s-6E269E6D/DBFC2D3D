@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1483912219080.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DBFC2D3D",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1483912219080,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "wnoq70doix",
+        "caption" : "Sys.getenv(\"PATH\")",
+        "contentUrl" : "grid_resource/gridviewer.html?env=_rs_no_env&obj=&cache_key=wnoq70doix",
+        "displayedObservations" : 1,
+        "environment" : "_rs_no_env",
+        "object" : "",
+        "totalObservations" : 1,
+        "variables" : 1
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

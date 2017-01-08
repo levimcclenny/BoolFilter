@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "^.*\\.Rproj$\n^\\.Rproj\\.user$\n^cran-comments\\.Rmd$\n^README\\.Rmd$\n^README-.*\\.png$\n",
+    "created" : 1483901998056.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2332629342",
+    "id" : "E9D39FD4",
+    "lastKnownWriteTime" : 1483910240,
+    "last_content_update" : 1483910240,
+    "path" : "C:/Users/Levi/Dropbox/BoolFilter/.Rbuildignore",
+    "project_path" : ".Rbuildignore",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "import(Rlab, BoolNet)\n\n#exportPattern(\"^[[:alpha:]]+\")\n\nimportFrom(\"graphics\", \"abline\", \"axis\", \"box\", \"lines\", \"par\", \"plot\")\nimportFrom(\"stats\", \"rmultinom\", \"rnbinom\", \"rnorm\", \"rpois\")\n\nexport(\n  BKF,\n  BKS,\n  SIR_BKF,\n  plotTrajectory,\n  simulateNetwork,\n  MMAE)",
+    "created" : 1483767644008.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3272192540",
+    "id" : "16106F0",
+    "lastKnownWriteTime" : 1483767664,
+    "last_content_update" : 1483767664158,
+    "path" : "~/Dropbox/BoolFilter/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

@@ -1,0 +1,14 @@
+Package: BoolFilter
+Type: Package
+Title: Optimal Estimation of Partially Observed Boolean Dynamical
+        Systems
+Version: 1.0
+Date: 2017-01-08
+Author: Levi McClenny, Mahdi Imani, Ulisses Braga-Neto
+Maintainer: Levi McClenny <levimcclenny@tamu.edu>
+Depends: R (>= 2.15.0), Rlab, BoolNet
+BuildManual: yes
+Description: Implementation of optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.
+License: Artistic-2.0
+NeedsCompilation: no
+Packaged: 2017-01-08 22:08:54 UTC; Levi
