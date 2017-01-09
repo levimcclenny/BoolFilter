@@ -74,6 +74,8 @@ For a 4-gene network, a potential \code{obsModel} parameter for a Negative-Binom
 }
 \source{
 Braga-Neto, U. (2011, November). Optimal state estimation for Boolean dynamical systems. In Signals, Systems and Computers (ASILOMAR), 2011 Conference Record of the Forty Fifth Asilomar Conference on (pp. 1050-1054). IEEE.
+\cr
+\cr
 Imani, M., & Braga-Neto, U. Maximum-likelihood adaptive filter for partially-observed boolean dynamical systems. IEEE transaction on Signal Processing, 65:359-371, 2017.
 }
 \examples{
