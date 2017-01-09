@@ -10,7 +10,7 @@ This package seeks to implement optimal estimation of Partially-Observed Boolean
 Use
 ===
 
-Deploy the package using:
+Deploy the package:
 
 ``` r
 library('BoolFilter')
@@ -75,7 +75,7 @@ MMAE(data, net=c("net1","net2"), p=c(0.02,0.1,0.15), threshold=0.8, obsModel = o
 #>  The infered model is
 #>  p = 0.02
 #>  Net = net1
-#>  The selected model is infered with 8 data.
+#>  The selected model is infered with 7 data.
 ```
 
 ![](README-unnamed-chunk-4-1.png)

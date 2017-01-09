@@ -223,7 +223,7 @@ library('BoolFilter')
 \hfill
 \begin{center}
 \begin{minipage}{0.35\textwidth}
-\includegraphics[width=1\textwidth]{Figures/p53.PNG}
+\includegraphics[width=1\textwidth]{Figures/p53.png}
 \caption{p53-mdm2 Network}
 \label{p53-mdm2 Network}
 \end{minipage}
