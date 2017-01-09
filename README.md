@@ -5,7 +5,7 @@
 Description
 ===========
 
-This package seeks to implement optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.
+This package contains tools for optimal and approximate state estimation as well as network inference of Partially-Observed Boolean Dynamical Systems.
 
 Use
 ===
