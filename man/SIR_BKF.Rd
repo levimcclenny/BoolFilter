@@ -55,7 +55,7 @@ obsModel = list(type = 'Gaussian',
 data <- simulateNetwork(cellcycle, n.data = 100, p = 0.02, obsModel)
 
 #perform SIR-BKF algorithm
-approx <- SIR_BKF(data$Y, N = 1000, alpha = 0.95, cellcycle, p = 0.02, obsModel)
+Results <- SIR_BKF(data$Y, N = 1000, alpha = 0.95, cellcycle, p = 0.02, obsModel)
                                           
 }                                        
 
