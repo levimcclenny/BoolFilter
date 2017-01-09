@@ -1,2 +1,3 @@
 language: r
 cache: packages
+r_check_args: --no-build-vignettes --no-manual --as-cran
