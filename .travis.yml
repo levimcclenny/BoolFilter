@@ -1,4 +1,4 @@
 language: r
 cache: packages
-r_check_args: --no-build-vignettes --no-manual --as-cran
-r_build_args: --no-build-vignettes --no-manual --as-cran
+r_check_args: --as-cran
+r_build_args: --no-manual --no-resave-data
