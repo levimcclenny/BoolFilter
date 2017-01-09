@@ -1,4 +1,4 @@
 language: r
 cache: packages
-R CMD build --no-build-vignettes --no-manual --no-resave-data rpack
-R CMD check --no-build-vignettes --no-manual --as-cran rpack
+r_build_args: --no-build-vignettes --no-manual --no-resave-data rpack
+r_check_args: --no-build-vignettes --no-manual --as-cran rpack
