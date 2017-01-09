@@ -5,7 +5,12 @@ Version: 1.0
 Date: 2017-01-08
 Author: Levi McClenny, Mahdi Imani, Ulisses Braga-Neto
 Maintainer: Levi McClenny <levimcclenny@tamu.edu>
-Depends: R (>= 2.15.0), Rlab, BoolNet
+Depends:
+    R (>= 2.15.0),
+    Rlab,
+    BoolNet
 BuildManual: yes
-Description: tools for optimal and approximate state estimation as well as network inference of Partially-Observed Boolean Dynamical Systems.
+Description: tools for optimal and approximate state estimation as well as
+    network inference of Partially-Observed Boolean Dynamical Systems.
 License: Artistic-2.0
+RoxygenNote: 5.0.1

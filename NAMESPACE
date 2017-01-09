@@ -1,6 +1,5 @@
 import(Rlab, BoolNet)
 
-#exportPattern("^[[:alpha:]]+")
 
 importFrom("graphics", "abline", "axis", "box", "lines", "par", "plot")
 importFrom("stats", "rmultinom", "rnbinom", "rnorm", "rpois")
