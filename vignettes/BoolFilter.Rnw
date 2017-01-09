@@ -16,22 +16,22 @@
 
 \usepackage{a4wide}
 
-\usepackage{graphicx}
+%\usepackage{graphicx}
 %\usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{amsmath,amssymb,amsthm,mathrsfs}
-\usepackage{cite}
-\usepackage{graphicx}
+%\usepackage{cite}
+%\usepackage{graphicx}
 %\usepackage{fullpage}
 \usepackage{amsmath}
-\usepackage{pbox}
-\usepackage{commath}
-\usepackage{booktabs,caption}
-\usepackage{multirow}
+%\usepackage{pbox}
+%\usepackage{commath}
+%\usepackage{booktabs,caption}
+%\usepackage{multirow}
 %\usepackage{kbordermatrix}
 %\usepackage{fancyhdr}
-\usepackage{lastpage}
-\usepackage{float}
+%\usepackage{lastpage}
+%\usepackage{float}
 %\usepackage{pgfplots}
 
 \usepackage{listings}
