@@ -6,4 +6,6 @@ output: github_document
 ---
 
 # BoolFilter 1.0
+8 January 2016
+
 Initial push to Github and CRAN
