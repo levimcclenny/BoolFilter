@@ -2,7 +2,7 @@
 title: "cran-comments"
 author: "Levi McClenny"
 date: "January 8, 2017"
-output: githib_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
