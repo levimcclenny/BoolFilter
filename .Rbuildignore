@@ -3,11 +3,7 @@
 ^cran-comments\.Rmd$
 ^README\.Rmd$
 ^README-.*\.png$
-<<<<<<< HEAD
 ^README\.md$
 ^\.travis\.yml$
-^NEWS\.md$
 ^NEWS\.Rmd$
-=======
 ^\.travis\.yml$
->>>>>>> b60562cc5fb131b950572febd7dcceee26459b27

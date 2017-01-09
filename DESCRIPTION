@@ -1,7 +1,7 @@
 Package: BoolFilter
 Type: Package
 Title: Optimal Estimation of Partially Observed Boolean Dynamical Systems
-Version: 1.0
+Version: 1.0.0
 Date: 2017-01-08
 Author: Levi McClenny, Mahdi Imani, Ulisses Braga-Neto
 Maintainer: Levi McClenny <levimcclenny@tamu.edu>
@@ -10,7 +10,7 @@ Depends:
     Rlab,
     BoolNet
 BuildManual: yes
-Description: tools for optimal and approximate state estimation as well as
+Description: Tools for optimal and approximate state estimation as well as
     network inference of Partially-Observed Boolean Dynamical Systems.
 License: Artistic-2.0
 RoxygenNote: 5.0.1
