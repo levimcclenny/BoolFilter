@@ -1,5 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Build Status](https://travis-ci.org/levimcclenny/BoolFilter.svg?branch=master)](https://travis-ci.org/levimcclenny/pkg)
+
 Description
 ===========
 
@@ -25,8 +27,6 @@ library('BoolFilter')
 #>     precip
 #> Loading required package: BoolNet
 ```
-
-[![Build Status](https://travis-ci.org/levimcclenny/BoolFilter.svg?branch=master)](https://travis-ci.org/levimcclenny/pkg)
 
 A few examples of the basic use of the package are shown below:
 
