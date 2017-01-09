@@ -7,5 +7,5 @@ Author: Levi McClenny, Mahdi Imani, Ulisses Braga-Neto
 Maintainer: Levi McClenny <levimcclenny@tamu.edu>
 Depends: R (>= 2.15.0), Rlab, BoolNet
 BuildManual: yes
-Description: Implementation of optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.
+Description: tools for optimal and approximate state estimation as well as network inference of Partially-Observed Boolean Dynamical Systems.
 License: Artistic-2.0

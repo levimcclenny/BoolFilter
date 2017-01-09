@@ -6,7 +6,7 @@
 Optimal Estimation of Partially-Observed Boolean Dynamical Systems
 }
 \description{
-Implementation of optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.
+Tools for optimal and approximate state estimation as well as network inference of Partially-Observed Boolean Dynamical Systems.
 }
 \details{
 \tabular{ll}{

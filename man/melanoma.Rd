@@ -5,15 +5,15 @@
 Melanoma Regulatory Network
 }
 \description{
-Melanoma Boolean regulatory network as described by E.R. Dougherty et al.
+Melanoma Boolean regulatory network as described by sM.R. Yousefi, et al.
 }
-\usage{data("melanoma")}
+\usage{data(melanoma)}
 
 \details{
-The data consists of activities of 7 genes in melanoma regulatory network. The 7 genes are as follows: WNT5A, pirin, S100P, RET1, MART1, HADHB and STC2. 
+The data consists of activities of 10 genes in melanoma regulatory network. The 10 genes are as follows: WNT5A, pirin, S100P, RET1, MMP3, PHOC, MART1, HADHB, synuclein, and STC2.
 }
 \source{
-E. R. Dougherty, R. Pal, X. Qian, M. L. Bittner, and A. Datta, "Stationary and structural control in gene regulatory networks: basic concepts," International Journal of Systems Science, vol. 41, no. 1, pp. 5-16, 2010.
+Yousefi, Mohammadmahdi R., and Edward R. Dougherty. "Intervention in gene regulatory networks with maximal phenotype alteration."" Bioinformatics 29.14 (2013): 1758-1767.
 }
 
 \examples{

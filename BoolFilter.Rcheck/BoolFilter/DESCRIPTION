@@ -11,5 +11,5 @@ BuildManual: yes
 Description: Implementation of optimal estimation of Partially-Observed Boolean Dynamical Systems. The optimal solution is the Boolean Kalman Filtering algorithm, as well as modifications of the same.
 License: Artistic-2.0
 NeedsCompilation: no
-Packaged: 2017-01-08 22:08:54 UTC; Levi
-Built: R 3.3.2; ; 2017-01-08 22:10:50 UTC; windows
+Packaged: 2017-01-09 01:49:53 UTC; Levi
+Built: R 3.3.2; ; 2017-01-09 01:50:27 UTC; windows

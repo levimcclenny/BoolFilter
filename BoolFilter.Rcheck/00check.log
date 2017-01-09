@@ -22,8 +22,7 @@ New submission
 * checking package directory ... OK
 * checking 'build' directory ... OK
 * checking DESCRIPTION meta-information ... OK
-* checking top-level files ... NOTE
-Files 'README.md' or 'NEWS.md' cannot be checked without 'pandoc' being installed.
+* checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
@@ -53,17 +52,16 @@ Files 'README.md' or 'NEWS.md' cannot be checked without 'pandoc' being installe
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking sizes of PDF files under 'inst/doc' ... NOTE
-Unable to find GhostScript executable to run checks on size reduction
+* checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
 * checking examples ... OK
 Examples with CPU or elapsed time > 5s
          user system elapsed
-SIR_BKF 67.86   0.14   68.78
+SIR_BKF 73.07   0.07   76.16
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking re-building of vignette outputs ... OK
 * checking PDF version of manual ... OK
 * DONE
-Status: 3 NOTEs
+Status: 1 NOTE

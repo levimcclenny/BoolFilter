@@ -361,7 +361,7 @@ Loading required package: BoolNet
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  70.05 0.42 71.32 NA NA 
+Time elapsed:  75.32 0.35 78.98 NA NA 
 > grDevices::dev.off()
 null device 
           1 
