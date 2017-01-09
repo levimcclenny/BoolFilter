@@ -3,6 +3,8 @@ cache: packages
 r_build_args: --no-resave-data
 r_check_args: --as-cran
 
+before-install: sudo apt-get install texinfo
+
 warnings_are_errors: false
 
 
