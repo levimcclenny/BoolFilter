@@ -2,7 +2,7 @@
 title: "cran-comments"
 author: "Levi McClenny"
 date: "January 8, 2017"
-output: html_document
+output: githib_document
 ---
 
 ```{r setup, include=FALSE}
@@ -12,10 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Test environments
 * local OS X install, R 3.3.2, platform: x86_64-apple-darwin13.4.0 (64-bit)
 * local windows install, R 3.3.2, platform: x86_64-w64-mingw32 (64-bit)
+* Linux (using Travis CI), R 3.3.1, platform: X86_64-pc-linux-gnu (64-bit)
 * win-builder (devel and release)
+
 
 ## R CMD check results
 There were no ERRORs, WARNINGs, or NOTEs. 
+
+'donttest' was used to bypass examples in the SIR_BKF function for the sake of checking, however the examples will run with example()
 
 ## Downstream dependencies
 There are currently no downstream dependencies.
