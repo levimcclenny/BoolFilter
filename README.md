@@ -26,6 +26,8 @@ library('BoolFilter')
 #> Loading required package: BoolNet
 ```
 
+[![Build Status](https://travis-ci.org/levimcclenny/BoolFilter.svg?branch=master)](https://travis-ci.org/levimcclenny/pkg)
+
 A few examples of the basic use of the package are shown below:
 
 ### Data Generation, Filtering, and visualization
