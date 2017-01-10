@@ -1,3 +1,5 @@
+#' @export
+
 BKS <- function(Y, net, p, obsModel = NA) {
   n.genes <- length(net$genes)
    #Create A matrix based on size of network
