@@ -1,3 +1,5 @@
+#' @export
+
 MMAE <- function(data, net, p, threshold, Prior = NA, obsModel = NA) {
   if(is.na(Prior)){
   Prior <- rep(1/(length(p)*length(net)),length(p)*length(net))  

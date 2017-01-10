@@ -1,3 +1,7 @@
+#' @export
+#' @importFrom stats rmultinom rnbinom rnorm rpois
+#' @importFrom Rlab rbern
+
 simulateNetwork <- function(net, n.data, p, obsModel = NA) {
   n.genes <- length(net$genes)
 X <- matrix(0, nrow = n.data, ncol = n.genes)
