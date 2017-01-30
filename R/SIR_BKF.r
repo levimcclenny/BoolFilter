@@ -14,10 +14,11 @@ Xhat <- matrix(0, nrow=ngenes, ncol = nrow(Yk))
 NT <- alpha*N
 X_k <- Xo
 W <- rep(1/N, N)
+Ap <- TruthTable(A, net)
 
 type <- toupper(obsModel[[1]])
 for (k in 2:nrow(Yk)) {
-Xk <- abs(step.forward(X_k, p, net)) 
+Xk <- abs(step.forward(X_k, p, A, Ap, net)) 
 if (!any(is.na(Yk[k,]))) {
   if(type == "BERNOULLI") {
     if(length(obsModel[[2]]) !=1 ) {stop('Bernoulli noise selected, however other observation model noise parameters are defined. See vignette for more information')}
