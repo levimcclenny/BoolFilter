@@ -1,3 +1,6 @@
+#' @export
+#' @importFrom graphics abline axis box lines par plot
+
 plotTrajectory <- function(dataset1, labels = NA,  dataset2 = NA, compare = FALSE, byrow = TRUE){
 if(!is.numeric(dataset1)) {stop('Input is not numeric')}
 if(!byrow) {

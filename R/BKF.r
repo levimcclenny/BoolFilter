@@ -1,3 +1,6 @@
+#' @export
+#' @importFrom BoolNet stateTransition
+
 BKF <- function(Y, net, p, obsModel = NA) {
 n.genes <- length(net$genes)
 Y_k <- t(Y)

@@ -1,6 +1,5 @@
-##############
-#Algorithm for PF
-##############
+#' @export
+#' 
 SIR_BKF <- function(Y, N, alpha, net, p, obsModel = NA) {
 ngenes <- length(net$genes)
 Yk <- t(Y)
