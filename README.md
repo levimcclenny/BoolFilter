@@ -56,7 +56,7 @@ plotTrajectory(Results$Xhat,
 
 ### Model Selection
 
-BoolFilter comes with capibilites for Multiple-Model Adaptive Estimation (citation in vignette), in which model selection and parameter estimation is made possible by implementing a bank Boolean Kalman Filters running in parallel.
+BoolFilter comes with capibilites for Multiple-Model Adaptive Estimation (citation in vignette), in which model selection and parameter estimation is made possible by implementing a bank of Boolean Kalman Filters running in parallel.
 
 ``` r
 data(p53net_DNAdsb1)
